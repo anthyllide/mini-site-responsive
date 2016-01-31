@@ -1,0 +1,131 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+article, section , footer , header , nav {
+    display : block;
+}
+
+body {
+    font-family : Arial, sans-serif;
+    font-size : 62.5%;
+}
+
+#wrapper {
+    margin : 10px auto;
+    width : 98%; /* prend en compte les paddings gauche/droite des 3 maquettes */
+}
+
+a{
+    text-decoration : none;
+}
+
+ul li{
+    list-style-type : none;
+}
+
+/* POUR SMARTPHONE */
+    
+header {
+    text-align : center;
+}
+    
+#logo {
+    width : 47.2411186696901%; /* 150/317.52px */   
+}
+    
+header h2 {
+    font-size : 1.2em;
+    font-weight : bold;
+    color : #665599; 
+    margin-bottom : 0.5em;
+}
+    
+header nav ul li {
+    display : block;
+    background-color : #665599;
+    height : 3.8em; /*mesuré sur la maquette*/
+    border-bottom : dashed 0.1em #cccccc;
+    line-height : 3.8em;
+    text-align : left;
+}
+    
+header nav ul li a {
+    font-size : 1.2em;
+    color : #cccccc;
+    font-weight: bold;
+    margin-left : 4.72411186696901%;/* 15/317.52px */
+}
+    
+.article {
+    text-align: center;
+    padding : 1.4em 0;
+    margin-top : 0.4em;
+}
+    
+.article img {
+    width : 97.00176366843034%; /* 308/317.52px */
+}
+    
+.article h1 {
+    font-size : 2.4em;
+    color : #666699;
+    text-align: left;
+    margin-left : 2.204585537918871%; /* 7/317.52px */
+}
+    
+.article p {
+    text-align : left;
+    margin-left : 2.204585537918871%; /* 7/317.52px */
+}
+    
+#additional {
+    margin-top : 10em;
+}
+    
+.link {
+    background-color : #ededed;
+    border : 0.1em solid black;
+    margin-bottom : 0.2em;
+    margin-right : 0.6122448979591837%;
+    height : 8.1em;
+    line-height : 8.1em;
+}
+    
+    
+.link img {
+    width : 33.27839756592292%; /* 105/315.52px en tenant compte des padding */
+    height: 8.1em;
+    float : left;
+}
+    
+.link h3 a {
+    color : #000222;
+    margin-left : 10.80246913580247%; /* 35/324px */
+}
+     
+footer {
+    background-color: #665599;
+    height : 20.3em;
+    line-height:20.3em;
+    margin-top :3.8em;
+}
+    
+footer ul {
+    padding : 0 1.574703955656337%;/* 5/317.52px */
+    display : block;
+    text-align : center;
+    height : auto;
+}
+    
+footer ul li {
+    display : inline;
+    margin-right : 4.094230284706475%; /* 13/317.52px */
+}
+    
+footer ul li a {
+    color : #FFF;        
+}    
+
+
